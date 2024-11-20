@@ -1,32 +1,28 @@
 # My dotfiles
 
-This repo contains the dotfiles for my system
+This repo contains the dotfiles for my system.
 
 ## Requirements
 
-I use stow to have the files in this repo and keep them functional
+I use [stow](https://www.gnu.org/software/stow/) to have the files in this repo and keep them functional.
 
-Make sure it is installe in you system
-
-```
-stow --adopt .
-```
-
-The --adopt option ensures that if a physical dotfile is present when stowing it is copied to the stow directory and substituted by a symlink
+Make sure [stow](https://www.gnu.org/software/stow/) is installed in you system.
 
 ## Installation
 
-First, clone this repo in your home directory
+First, clone this repo in your home directory:
 
-```
-$ git clone git@github.com/Oldranda1414/dotfiles.git
-$ cd dotfiles
+```sh
+git clone git@github.com/Oldranda1414/dotfiles.git
+cd dotfiles
 ```
 
-Then use GNU stow to create symlinks
+Then use stow to create symlinks:
 
+```sh
+stow --adopt .
 ```
-$ stow --adopt .
-```
+
+The --adopt option ensures that if a physical dotfile is present when stowing it is copied to the stow directory and replaced by a symlink.
 
 This repo is based on the ideas expressed in this [video](https://youtu.be/y6XCebnB9gs?si=ApqFiTWsAKqE_-NI)
