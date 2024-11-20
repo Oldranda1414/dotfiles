@@ -115,43 +115,49 @@
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 # batcat into bat (supercharged version of cat)
 alias bat=batcat
 
-#easy turn off machine
+# cat into bat (modern version of cat)
+alias cat=bat
+
+# easy turn off machine
 alias turnoffnow="shutdown -h now"
 
-#easy restart machine
+# easy restart machine
 alias restartnow="shutdown -r now"
 
-#makes ls show directories first, then other file types
-alias ls="ls --color=auto --group-directories-first"
+# ls into exa (modern ls)
+alias ls="exa --color=auto -la --icons --time=modified"
 
-#starts port royale 2
-alias pr2="wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Port\ Royale\ 2/Inizio\ del\ gioco.exe"
-
-#executes htop to find faulty process id
+# executes htop to find faulty process id
 alias stuck=htop
 
-#opens vs code with current folder opens
+# opens vs code with current folder opens
 alias code="code ."
 
-#since using this in git so much, alias for easier use
+# since using this in git so much, alias for easier use
 alias gacm="git acm"
 
-#kills all gradle daemons existing
+# kills all gradle daemons existing
 alias gradlekill="pkill -f '.*GradleDaemon.*'"
 
-#start of dumb useless aliases
-#starts star wars in ASCII
+# start of dumb useless aliases
+
+# starts port royale 2
+alias pr2="wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Port\ Royale\ 2/Inizio\ del\ gioco.exe"
+
+# starts star wars in ASCII
 alias movie="telnet towel.blinkenlights.nl"
 
-#creates matrix screen
+# creates matrix screen
 alias matrix="cmatrix -s"
 
-#funny parrot dancing
+# funny parrot dancing
 alias parrot="curl parrot.live"
-#end of dumb useless aliases
+
+# end of dumb useless aliases
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
