@@ -1,0 +1,31 @@
+[user]
+	name = Oldranda
+	email = leonardorandacio@gmail.com
+[alias]
+	st = status -sb
+	last = log -1 HEAD --stat
+	cm = commit -m
+	gl = config --global -l
+	acm = !git add . && git commit -am
+	lol = log --oneline
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[core]
+	editor = nvim
+	pager = delta
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true    # use n and N to move between diff sections
+	side-by-side = true
+
+
+	# delta detects terminal colors automatically; set one of these to disable auto-detection
+	# dark = true
+	# light = true
+[merge]
+	conflictstyle = diff3
+[diff]
+	colorMoved = default
