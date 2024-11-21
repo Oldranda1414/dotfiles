@@ -18,7 +18,8 @@ alias turnoffnow="shutdown -h now"
 alias restartnow="shutdown -r now"
 
 # ls into exa (modern ls)
-alias ls="exa --color=auto -la --icons --time=modified"
+alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
+
 
 # Executes htop to find faulty process id
 alias stuck=htop
