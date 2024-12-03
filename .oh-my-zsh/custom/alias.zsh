@@ -8,9 +8,6 @@ alias e=exit
 # Batcat into bat (supercharged version of cat)
 alias bat=batcat
 
-# Cat into bat (modern version of cat)
-alias cat=bat
-
 # Easy turn off machine
 alias turnoffnow="shutdown -h now"
 
