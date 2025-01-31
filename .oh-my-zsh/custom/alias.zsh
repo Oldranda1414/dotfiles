@@ -17,6 +17,8 @@ alias restartnow="shutdown -r now"
 # ls into exa (modern ls)
 alias ls="exa --color=always --long --no-filesize --icons --no-time --no-user --no-permissions"
 
+# easy access to file explorer
+alias explore="nemo . > /dev/null 2>&1 & disown"
 
 # Executes htop to find faulty process id
 alias stuck=htop
@@ -26,6 +28,9 @@ alias code="code ."
 
 # Kills all gradle daemons existing
 alias gradlekill="pkill -f '.*GradleDaemon.*'"
+
+# Updates the system
+alias update="sudo apt update && sudo apt upgrade -y"
 
 # Sets alias for thefuck command
 eval $(thefuck --alias)
