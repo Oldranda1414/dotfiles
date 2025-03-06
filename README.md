@@ -31,7 +31,7 @@ This repo is based on the ideas expressed in this [video](https://youtu.be/y6XCe
 
 `.zshrc` : This is the [zsh](https://zsh.sourceforge.io/) shell config file.
 
-`.oh-my-zsh/custiom` : This contains the [oh-my-zsh](https://ohmyz.sh/) custom config files.
+`.oh-my-zsh/custom` : This contains the [oh-my-zsh](https://ohmyz.sh/) custom config files.
 
 `.gitconfig` : This is the [git](https://git-scm.com/) config file.
 
