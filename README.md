@@ -2,11 +2,11 @@
 
 This repo contains the dotfiles for my system.
 
+This repo is based on the ideas expressed in this [video](https://youtu.be/y6XCebnB9gs?si=ApqFiTWsAKqE_-NI)
+
 ## Requirements
 
 I use [stow](https://www.gnu.org/software/stow/) to have the files in this repo and keep them functional.
-
-This repo is based on the ideas expressed in this [video](https://youtu.be/y6XCebnB9gs?si=ApqFiTWsAKqE_-NI)
 
 ## Files
 
