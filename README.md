@@ -20,3 +20,6 @@ This repo is based on the ideas expressed in this [video](https://youtu.be/y6XCe
 
 - `.gitconfig` : This is the [git](https://git-scm.com/) config file.
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
