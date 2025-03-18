@@ -20,7 +20,7 @@ cd dotfiles
 Then use stow to create symlinks:
 
 ```sh
-stow --adopt .
+stow --adopt dotfiles
 ```
 
 The --adopt option ensures that if a physical dotfile is present when stowing it is copied to the stow directory and replaced by a symlink.
@@ -29,9 +29,13 @@ This repo is based on the ideas expressed in this [video](https://youtu.be/y6XCe
 
 ## Files
 
-`.zshrc` : This is the [zsh](https://zsh.sourceforge.io/) shell config file.
+- `.zshrc` : This is the [zsh](https://zsh.sourceforge.io/) shell config file.
 
-`.oh-my-zsh/custom` : This contains the [oh-my-zsh](https://ohmyz.sh/) custom config files.
+- `.oh-my-zsh/custom` : This contains the [oh-my-zsh](https://ohmyz.sh/) custom config files.
+  - `alias.zsh` : Defines custom aliases
+  - `misc.zsh` : Miscellaneous customizations
+  - `path.zsh` : Defines custom additions to user path
+  - `switch_project.zsh` : Defines utility function to switch to project directories
 
-`.gitconfig` : This is the [git](https://git-scm.com/) config file.
+- `.gitconfig` : This is the [git](https://git-scm.com/) config file.
 
