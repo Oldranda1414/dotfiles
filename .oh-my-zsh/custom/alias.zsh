@@ -17,7 +17,7 @@ alias restartnow="shutdown -r now"
 # ls into exa (modern ls)
 alias ls="exa --color=always --long --no-filesize --icons --no-time --no-user --no-permissions"
 
-# easy access to file explorer
+# Easy access to file explorer
 alias explore="nemo . > /dev/null 2>&1 & disown"
 
 # Executes htop to find faulty process id
@@ -32,7 +32,10 @@ alias gradlekill="pkill -f '.*GradleDaemon.*'"
 # Updates the system
 alias update="sudo apt update && sudo apt upgrade -y"
 
-# Sets alias for thefuck command
+# Alias for switch_project command (custom defined in switch_project.zsh)
+alias sp = switch_project
+
+# Alias for thefuck command
 eval $(thefuck --alias)
 
 # Dumb aliases {
