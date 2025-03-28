@@ -8,6 +8,7 @@
 	gl = config --global -l
 	acm = !git add . && git commit -am
 	lol = log --oneline
+	pushup = push -u origin HEAD
 [init]
 	defaultBranch = main
 [pull]
