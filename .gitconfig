@@ -2,13 +2,13 @@
 	name = Oldranda
 	email = leonardorandacio@gmail.com
 [alias]
-	st = status -sb
-	last = log -1 HEAD --stat
-	cm = commit -m
-	gl = config --global -l
-	acm = !git add . && git commit -am
-	lol = log --oneline
-	pushup = push -u origin HEAD
+	st = status -sb # Shows concise status
+	last = log -1 HEAD --stat # Shows last commit with file changes
+	cm = commit -m # Shortens commit command
+	gl = config --global -l # Lists global Git configs
+	acm = !git add . && git commit -am # Shortcut to add all changes and commit
+	lol = log --oneline # Summary of git log
+	pushup = push -u origin HEAD # sets upstream for new branches
 [init]
 	defaultBranch = main
 [pull]
