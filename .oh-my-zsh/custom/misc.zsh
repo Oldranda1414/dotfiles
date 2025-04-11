@@ -22,3 +22,7 @@ export FZF_DEFAULT_OPTS=" \
 
 # Setting bat theme
 export BAT_THEME=Nord
+
+# direnv setup hook
+eval "$(direnv hook zsh)"
+
