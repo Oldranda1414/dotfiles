@@ -8,7 +8,8 @@
 	gl = config --global -l # Lists global Git configs
 	acm = !git add . && git commit -am # Shortcut to add all changes and commit
 	lol = log --oneline # Summary of git log
-	pushup = push -u origin HEAD # sets upstream for new branches
+	pushup = push -u origin HEAD # Sets upstream for new branches
+	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ / # Lists all git aliases
 [init]
 	defaultBranch = main
 [pull]
