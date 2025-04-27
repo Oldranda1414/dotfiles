@@ -9,8 +9,12 @@
   trap 'test -n "$SSH_AUTH_SOCK" && eval `/usr/bin/ssh-agent -k`' 0
 # }
 
-# Added to use emacs keybindings in terminal
-bindkey -e
+# Set vim keybindings
+bindkey -v
+# Start in vim normal mode by default
+autoload -Uz edit-command-line
+zle-line-init() { zle vi-cmd-mode; }
+zle -N zle-line-init
 
 # Setting fzf theme to catpuccin-mocha (https://github.com/catppuccin/fzf) 
 export FZF_DEFAULT_OPTS=" \
