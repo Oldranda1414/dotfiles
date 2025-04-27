@@ -10,10 +10,18 @@
 	lol = log --oneline # Summary of git log
 	pushup = push -u origin HEAD # Sets upstream for new branches
 	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ / # Lists all git aliases
+  graph = log --graph --pretty=format:'%C(magenta)%h %C(white) %an  %ar%C(auto)  %D%n%s%n' # Pretty graph log
 [init]
 	defaultBranch = main
 [pull]
 	rebase = true
+[log]
+  abbrevCommit = true
+  graphColors = blue,yellow,cyan,magenta,green,red
+[status]
+  branch = true
+  showStash = true
+  showUntrackedFiles = all
 [core]
 	editor = nvim
 	pager = delta
@@ -31,3 +39,8 @@
 	conflictstyle = diff3
 [diff]
 	colorMoved = default
+[color "decorate"]
+  HEAD = red
+  branch = blue
+  tag = yellow
+  remoteBranch = magenta
