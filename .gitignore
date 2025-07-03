@@ -1,2 +1,7 @@
 # file containing my personal project directories
 projects.zsh
+
+# ignore tmux plugins, except tmux pacakge manager
+.tmux/plugins/*
+!.tmux/plugins/tpm/
+!.tmux/plugins/tpm/**
