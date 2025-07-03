@@ -23,7 +23,7 @@ I use [stow](https://www.gnu.org/software/stow/) to have the files in this repo 
 - `.tmux.conf` : Contains [tmux](https://github.com/tmux/tmux) configuration.
 - `.tmux` : Contains [tmux](https://github.com/tmux/tmux) programs.
   - `plugins` : Contains [tmux](https://github.com/tmux/tmux) programs.
-    - `tmp` : Contains [tmux](https://github.com/tmux/tmux) plugins. The only preinstalled one is tmux package manager. The rest are defined in `.tmux.conf`
+    - `tmp` : Contains [tmux](https://github.com/tmux/tmux) plugins. The only preinstalled one is tmux plugin manager. The rest are defined in `.tmux.conf`
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
