@@ -49,7 +49,7 @@ disk "/" {
 }
 
 load {
-        format = "CPU %1min%"
+        format = "CPU %1min"
 }
 
 memory {
