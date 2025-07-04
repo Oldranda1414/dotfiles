@@ -47,6 +47,10 @@ set $bar_color_workspace_inactive_fg #2E3440
 set $bar_color_workspace_urgent_bg   #D08770
 set $bar_color_workspace_urgent_fg   #2E3440
 
+### Startup ###
+# exec --no-startup-id i3-msg "workspace $ws2; exec $wm_setting_app_browser"
+# exec --no-startup-id i3-msg "workspace $ws1; exec $wm_setting_app_terminal"
+
 ### Applications ###
 # Start a terminal emulator
 bindsym $mod+Return exec $wm_setting_app_terminal
@@ -86,17 +90,17 @@ bindsym $mod+8 workspace $ws8
 bindsym $mod+9 workspace $ws9
 bindsym $mod+0 workspace $ws10
 
-# Move focused container to workspace n
-bindsym $mod+$smod+1 move container to workspace $ws1
-bindsym $mod+$smod+2 move container to workspace $ws2
-bindsym $mod+$smod+3 move container to workspace $ws3
-bindsym $mod+$smod+4 move container to workspace $ws4
-bindsym $mod+$smod+5 move container to workspace $ws5
-bindsym $mod+$smod+6 move container to workspace $ws6
-bindsym $mod+$smod+7 move container to workspace $ws7
-bindsym $mod+$smod+8 move container to workspace $ws8
-bindsym $mod+$smod+9 move container to workspace $ws9
-bindsym $mod+$smod+0 move container to workspace $ws10
+# Move focused container to workspace n and go to workspace n
+bindsym $mod+$smod+1 move container to workspace $ws1; workspace $ws1
+bindsym $mod+$smod+2 move container to workspace $ws2; workspace $ws2
+bindsym $mod+$smod+3 move container to workspace $ws3; workspace $ws3
+bindsym $mod+$smod+4 move container to workspace $ws4; workspace $ws4
+bindsym $mod+$smod+5 move container to workspace $ws5; workspace $ws5
+bindsym $mod+$smod+6 move container to workspace $ws6; workspace $ws6
+bindsym $mod+$smod+7 move container to workspace $ws7; workspace $ws7
+bindsym $mod+$smod+8 move container to workspace $ws8; workspace $ws8
+bindsym $mod+$smod+9 move container to workspace $ws9; workspace $ws9
+bindsym $mod+$smod+0 move container to workspace $ws10; workspace $ws10
 
 ### Window sizes and positions ###
 # Cange focus
