@@ -20,9 +20,15 @@ I use [stow](https://www.gnu.org/software/stow/) to have the files in this repo 
 - `.config` : Contains user programs config files.
   - `direnv` : Contains [direnv](https://direnv.net/) config file.
     - `direnv.toml` : [direnv](https://direnv.net/) config file.
+  - `i3` : Contains [i3](https://i3wm.org/) config.
+    - `config` : [i3](https://i3wm.org/) config.
+  - `i3status` : Contains [i3status](https://github.com/i3/i3status) config.
+    - `config` : [i3status](https://github.com/i3/i3status) config.
+  - `picom` : Contains [picom](https://github.com/yshui/picom) config.
+    - `.picom.conf` : [picom](https://github.com/yshui/picom) config.
 - `.tmux.conf` : Contains [tmux](https://github.com/tmux/tmux) configuration.
 - `.tmux` : Contains [tmux](https://github.com/tmux/tmux) programs.
-  - `plugins` : Contains [tmux](https://github.com/tmux/tmux) programs.
+  - `plugins` : Contains [tmux](https://github.com/tmux/tmux) plugins.
     - `tmp` : Contains [tmux](https://github.com/tmux/tmux) plugins. The only preinstalled one is tmux plugin manager. The rest are defined in `.tmux.conf`
 
 ## License

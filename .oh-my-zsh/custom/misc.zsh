@@ -2,8 +2,8 @@
 
 # ssh automation {
   if [ -z "$SSH_AUTH_SOCK" ] ; then
-    eval `ssh-agent -s`
-    ssh-add
+    eval `ssh-agent -s` >/dev/null
+    ssh-add -q
   fi
 
   trap 'test -n "$SSH_AUTH_SOCK" && eval `/usr/bin/ssh-agent -k`' 0
