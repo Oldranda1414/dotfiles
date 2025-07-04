@@ -6,7 +6,8 @@
 	last = log -1 HEAD --stat # Shows last commit with file changes
 	cm = commit -m # Shortens commit command
 	gl = config --global -l # Lists global Git configs
-	acm = !git add . && git commit -am # Shortcut to add all changes and commit
+	acm = !git add . && git commit -am # Shortcut to add all changes and commit with message
+	acmp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f" # Shortcut to add all changes, commit with message and push
 	lol = log --oneline # Summary of git log
 	pushup = push -u origin HEAD # Sets upstream for new branches
 	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ / # Lists all git aliases
