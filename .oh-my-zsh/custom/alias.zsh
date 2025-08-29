@@ -35,9 +35,6 @@ alias update="sudo apt update && sudo apt upgrade -y"
 # Alias for switch_project command (custom defined in switch_project.zsh)
 alias sp=switch_project
 
-# Alias for thefuck command
-eval $(thefuck --alias)
-
 # Dumb aliases {
 
   # Starts port royale 2
