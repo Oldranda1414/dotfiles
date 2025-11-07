@@ -50,6 +50,9 @@ set $bar_color_workspace_urgent_fg   #2E3440
 ### Startup ###
 # exec --no-startup-id i3-msg "workspace $ws2; exec $wm_setting_app_browser"
 # exec --no-startup-id i3-msg "workspace $ws1; exec $wm_setting_app_terminal"
+exec --no-startup-id nm-applet
+exec --no-startup-id gnome-keyring-daemon --start --components=secrets
+
 
 ### Applications ###
 # Start a terminal emulator
