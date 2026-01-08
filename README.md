@@ -18,6 +18,9 @@ I use [stow](https://www.gnu.org/software/stow/) to have the files in this repo 
   - `switch_project.zsh` : Defines utility function to switch to project directories.
 - `.gitconfig` : [git](https://git-scm.com/) config file.
 - `.config` : Contains user programs config files.
+  - `nvim`: Contains [neovim](https://neovim.io/) configuration files, based on [LazyVim](https://www.lazyvim.org/).
+    - `lua/plugins`: Contains LazyVim customization files.
+      - `colorscheme.lua`: Contains custom colorschemes.
   - `direnv` : Contains [direnv](https://direnv.net/) config file.
     - `direnv.toml` : [direnv](https://direnv.net/) config file.
   - `i3` : Contains [i3](https://i3wm.org/) config.
