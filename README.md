@@ -35,5 +35,5 @@ I use [stow](https://www.gnu.org/software/stow/) to have the files in this repo 
     - `tmp` : Contains [tmux](https://github.com/tmux/tmux) plugins. The only preinstalled one is tmux plugin manager. The rest are defined in `.tmux.conf`
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
