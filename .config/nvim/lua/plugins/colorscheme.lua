@@ -1,4 +1,7 @@
 return {
+  -- Pretty bright vibrant colorscheme
+  --{ "monaqa/colorimetry.nvim" },
+  -- The tsoding colorscheme
   {
     "blazkowolf/gruber-darker.nvim",
     opts = {
