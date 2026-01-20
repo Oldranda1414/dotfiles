@@ -5,3 +5,6 @@ projects.zsh
 .tmux/plugins/*
 !.tmux/plugins/tpm/
 !.tmux/plugins/tpm/**
+
+# ignore custom glossary for nvim
+.config/nvim/spell
