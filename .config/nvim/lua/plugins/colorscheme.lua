@@ -11,6 +11,7 @@ return {
       },
     },
   },
+  { "oskarnurm/koda.nvim" },
   {
     "LazyVim/LazyVim",
     opts = {
