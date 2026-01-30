@@ -12,6 +12,7 @@ return {
     },
   },
   { "oskarnurm/koda.nvim" },
+  { "slugbyte/lackluster.nvim" },
   {
     "LazyVim/LazyVim",
     opts = {
