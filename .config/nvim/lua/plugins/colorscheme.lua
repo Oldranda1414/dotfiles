@@ -11,6 +11,7 @@ return {
       },
     },
   },
+  { "silentium-theme/silentium.nvim" },
   { "oskarnurm/koda.nvim" },
   { "slugbyte/lackluster.nvim" },
   {
